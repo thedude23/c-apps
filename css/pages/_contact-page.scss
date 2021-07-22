@@ -1,0 +1,108 @@
+.contact-page {
+    background-color: $color-dark-grey-2;
+    .logo-footer {
+        width: 20rem;
+        max-height: 8rem;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .social-icons, .contact, .impressum {
+        margin-top: 4rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+
+        .fab {
+            font-size: 4.5rem;
+
+            &:hover {
+                color: $color-light-blue;
+            }
+        }
+
+        .fa-instagram-square {
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+        // .fab:nth-of-type(2n) {
+        // }
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center; // justify-content: space-around;
+
+        @media screen and (max-width: $media-sm) {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h3 {
+            color: $color-white;
+        }
+
+        p {
+            color: $color-white;
+            font-weight: 300;
+        }
+
+        &__email {
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+
+        &__phone, &__email, &__address {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+
+            @media screen and (max-width: $media-sm) {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            // &__address {
+            //     @media screen and (max-width: $media-sm) {
+            //         margin-bottom: 0rem;
+            //     }
+            // }
+
+            .fab, .fas {
+                font-size: 3rem;
+                color: $color-blue;
+                margin-bottom: 2rem;
+
+                &:hover {
+                    color: $color-light-blue;
+                }
+            }
+        }
+    }
+
+    .contact-alt {
+        margin-bottom: 4rem;
+    }
+
+    .copyright {
+        text-transform: uppercase;
+    }
+
+    .impressum, .privacy-policy, .copyright {
+        p {
+            font-size: 1.4rem;
+            line-height: 1.6;
+            color: $color-white;
+        }
+
+        a {
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,276 @@
+.hero {
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 0;
+    width: 100vw;
+    margin-top: -5rem; // that's the height of header 
+    height: calc(100vh + 5rem);
+
+    @media screen and (max-width: $media-md) {
+        background-image: url('../img/appmea-mobile.jpg') !important;
+        // background-image: url(https://www.appmea.com/wp-content/uploads/2020/11/appmea-mobile.jpg) !important;
+    }
+}
+
+// .about-us-carousel {
+//     overflow-x: hidden !important;
+
+//     padding-top: 3rem;
+//     padding-bottom: 3rem;
+
+//     this fix is needed!
+//     @media screen and (max-width: $media-sm) {
+//         width: 240px;
+//         margin: 0 auto;
+//     }
+// }
+
+#slider_87 {
+    .owl-prev {
+        // background: none;
+        background: $color-blue !important;
+        color: $color-white;
+        // position: relative;
+        &::after {
+            position: absolute;
+            font-family: "Font Awesome 5 Free"; 
+            font-weight: 900;
+            content: '\f104';
+            color: $color-white !important;
+            bottom: 0.5rem;
+            left: 1rem;
+        }
+        margin-left: 13.3rem;
+        @media screen and (max-width: 1199px) {
+            margin-left: 11.7rem;
+        }
+        @media screen and (max-width: $media-lg) {
+            margin-left: 10.7rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-left: 7.9rem;
+        }
+        @media screen and (max-width: $media-md) {
+            margin-left: 7.7rem;
+        }
+        @media screen and (max-width: $media-sm) {
+            display: none;
+        }
+        &:hover {
+            background: $color-light-blue !important;
+        }
+    }
+    .owl-next {
+        // background: none;
+        background: $color-blue !important;
+        color: $color-white;
+        // position: relative;
+        &::after {
+            position: absolute;
+            font-family: "Font Awesome 5 Free"; 
+            font-weight: 900;
+            content: '\f105';
+            color: $color-white !important;
+            bottom: 0.5rem;
+            right: 1rem;
+        }
+        margin-right: 13.3rem;
+        @media screen and (max-width: 1199px) {
+            margin-right: 11.7rem;
+        }
+        @media screen and (max-width: $media-lg) {
+            margin-right: 10.7rem;
+        }
+        @media screen and (max-width: 768px) {
+            margin-right: 7.9rem;
+        }
+        @media screen and (max-width: $media-md) {
+            margin-right: 7.7rem;
+        }
+        @media screen and (max-width: $media-sm) {
+            display: none;
+        }
+        &:hover {
+            background: $color-light-blue !important;
+        }
+    }
+
+    .owl-dot span {
+        background-color: $color-grey !important;
+    }
+    .owl-dot span:hover {
+        background-color: $color-blue !important;
+    }
+    .owl-dot.active span {
+        background-color: $color-blue !important;
+    }
+}
+
+.listing {
+    // centers list
+    text-align: left;
+    width: 45%;
+    position: relative;
+    left: 32.5%;
+    // background: pink;
+    @media screen and (max-width: 1100px) {
+        width: 50% !important;
+        position: relative;
+        left: 25%;
+    }
+    @media screen and (max-width: $media-lg) {
+        width: 60% !important;
+        position: relative;
+        left: 20%;
+    }
+    @media screen and (max-width: 420px) {
+        width: 70% !important;
+        position: relative;
+        left: 15%;
+    }
+
+    li {
+        list-style: none;
+        margin: 15px 0;
+
+        &::before {
+            font-family: "Font Awesome 5 Free"; 
+            font-weight: 900;
+            content: '\f00c';
+            color: $color-blue;
+            border: 1px solid $color-blue;
+            padding: 0.5rem;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+    }
+}
+
+.img-divider {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-dark-grey-2, 0.6),
+        rgba($color-dark-grey-2, 0.6)),
+        url('../img/appmea-it.jpg'); // url(https://www.appmea.com/wp-content/uploads/2020/11/appmea-it.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-attachment: fixed;
+    height: 24rem; // 120px
+}
+
+.jobs {
+    .job__box {
+        // cursor: pointer;
+        max-height: 4.5rem;
+        max-width: 100%;
+        // padding-left: 2rem;
+        // padding-right: 2rem;
+        @media screen and (max-width: $media-sm) {
+            max-height: 6rem;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $color-dark-grey-2;
+            width: 0%;
+            height: 0%;
+            opacity: 0.4;
+            transition: width .5s;
+        }
+        &:hover {
+            transform: scale(1.05);
+            @media screen and (max-width: 781px) {
+                transform: scale(1);
+            }
+            &::after {
+                width: 100%;
+                height: 100%;
+                opacity: 1;
+                z-index: -1;
+            }
+        }
+    }
+    
+    .job__box-initiative {
+        width: 48.5% !important;
+        margin: 0 auto;
+        height: 4.5rem !important;
+        @media screen and (max-width: 781px) {
+            width: 100% !important;
+        }
+    }
+    
+    .job__box-recently {
+        cursor: default;
+        height: 150px !important;
+    }
+    
+    .job__top-section {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        h3 {
+            @media screen and (max-width: $media-lg) {
+                font-size: 1.4rem !important;
+            }
+        }
+    }
+    
+    .job__top-section__title {
+        position: absolute;
+        top: 3rem;
+        left: 2rem;
+    }
+
+    i {
+        color: $color-blue;
+        position: absolute;
+        top: 2.5rem;
+        right: 2rem;
+        font-size: 3.5rem;
+        @media screen and (max-width: $media-lg) {
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .job__description {
+        position: absolute;
+        top: 9rem;
+        left: 2rem;
+        right: 2rem;
+        font-size: 1.4rem;
+    
+        list-style: inside;
+        list-style-type: circle !important;
+
+        @media screen and (max-width: $media-sm) {
+            font-size: 1.2rem;
+        }
+        li {
+            margin-left: 1rem;
+            font-size: 1.4rem;
+        }
+        a {
+            color: $color-white !important;
+            font-weight: 300;
+            &:hover {
+                color: lighten($color-blue, 25%) !important;
+            }
+            @media screen and (max-width: $media-sm) {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    
+    .job__date {
+        position: absolute;
+        bottom: 0rem;
+        right: 2rem;
+        font-size: 1.4rem;
+    }
+}

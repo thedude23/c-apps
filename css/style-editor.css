@@ -1,0 +1,68 @@
+.wp-block {
+    max-width: 720px;
+}
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1080px;
+}
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+@media (max-width: 781px) {
+    .wp-block-column:nth-child(2n) {
+        margin-left: 0;
+    }
+    .wp-block-column:not(:last-of-type) {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.wp-block-cover {
+    min-height: 35rem;
+    height: 100% !important;
+}
+    @media screen and (max-width: 992px) {
+        .wp-block-cover {
+            min-height: 45rem;
+        }
+    }
+
+.wp-block-separator {
+    color: #1695c3; /* $color-blue */
+}
+
+.separator-img {
+    background-image: linear-gradient(to right bottom, rgba(28, 29, 33, 0.6), rgba(28, 29, 33, 0.6)), url("../img/appmea-it.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-attachment: fixed;
+    /* height: 24rem; */
+}
+
+@media (max-width: 781px) and (min-width: 600px) {
+    .wp-block-column:not(:only-child) {
+        flex-basis: 100% !important;
+        flex-grow: 0;
+    }
+}
+
+
+
+/* .entry-title {
+    color: red !important;
+} */
+
+/* = .editor-styles-wrapper p */
+/* p { 
+    font: 16px / 1.6 'Lato', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem !important;
+} */
+
+/* .editor-post-title__input {
+    font: 28px / 2.8 'Oswald', sans-serif;
+    margin: 15px 0 15px;
+} */

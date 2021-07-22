@@ -1,0 +1,19 @@
+/*
+ORDER: base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+
+@import 'base';
+@import 'typography';
+@import 'utilities';
+@import 'animations';
+
+@import 'components/preloader';
+@import 'components/header';
+@import 'components/footer';
+
+@import 'pages/pages';
+@import 'pages/home-page';
+@import 'pages/contact-page';
+@import 'pages/404';

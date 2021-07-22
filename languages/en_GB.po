@@ -1,0 +1,556 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-09 16:07+0100\n"
+"PO-Revision-Date: 2020-11-09 16:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_nx;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:6
+msgid "We can't seem to find the page you're looking for."
+msgstr ""
+
+#: 404.php:7
+msgid "Go back to"
+msgstr ""
+
+#: 404.php:7
+msgid "Home Page"
+msgstr ""
+
+#: footer-alt.php:14 footer-home.php:14
+msgid "Phone"
+msgstr ""
+
+#: footer-alt.php:15 footer-home.php:15
+msgid "+43 664 2305410"
+msgstr ""
+
+#: footer-alt.php:21 footer-home.php:21
+msgid "Email"
+msgstr ""
+
+#: footer-alt.php:23 footer-home.php:23
+msgid "Send Mail"
+msgstr ""
+
+#: footer-alt.php:29 footer-home.php:29
+msgid "Address"
+msgstr ""
+
+#: footer-alt.php:41 footer-home.php:69
+msgid ""
+"Copyright © 2020 by APPMEA GmbH. All Rights Reserved. Photography by <a "
+"target=\"_top\" href=\"mailto:singer-andrea@hotmail.com\">Andrea Singer</a>."
+msgstr ""
+
+#: footer-home.php:44 footer-home.php:49 page-impressum-template.php:11
+msgid "Impressum"
+msgstr ""
+
+#: footer-home.php:61
+msgid "Privacy Policy (only in German)"
+msgstr ""
+
+#: functions.php:40
+msgid "Main Menu"
+msgstr ""
+
+#: home-template.php:12
+msgid "Many roads lead to your app"
+msgstr ""
+
+#: home-template.php:13
+msgid "APPMEA shows you the best one"
+msgstr ""
+
+#: home-template.php:21
+msgid "About APPMEA"
+msgstr ""
+
+#: home-template.php:25
+msgid ""
+"APPMEA is a Styrian IT company, specialized in designing and developing "
+"modern mobile and web applications."
+msgstr ""
+
+#: home-template.php:26
+msgid ""
+"It was in summer 2017 when four TU Graz students decided to pull together "
+"and combine their strengths."
+msgstr ""
+
+#: home-template.php:27
+msgid ""
+"Already worked and grown together as part of an university spin-off before, "
+"they teamed up to found APPMEA."
+msgstr ""
+
+#: home-template.php:28
+msgid ""
+"Not least because of the expertise, network and financial support of a "
+"styrian entrepreneur, an exceptional start was possible."
+msgstr ""
+
+#: home-template.php:29
+msgid ""
+"Within a year APPMEA has increased the number of employees to 12 people. In "
+"2020 APPMEA employs 21 people - an excellent mixture of graduates from "
+"different universities around Graz."
+msgstr ""
+
+#: home-template.php:30
+msgid ""
+"Due to that growth APPMEA decided to move to a bigger office located <a href="
+"\"https://www.google.at/maps/place/Appmea+GmbH/@47.0385415,15.4831321,17z/"
+"data=!3m1!4b1!4m5!3m4!1s0x476e357e8db57da9:0xf77aee21b1bfbd7a!8m2!"
+"3d47.0385415!4d15.4853261?shorturl=1\" target=\"blank\">near the Raaba "
+"Technopark</a> by the end of 2018."
+msgstr ""
+
+#: home-template.php:31
+msgid ""
+"Also in 2018 APPMEA founded its subsidiary <a href=\"https://about."
+"citiesapps.com/\" target=\"blank\" class=\"link-alternative-color"
+"\">citiesapps S&R GmbH</a> and started the first large-scale project: The "
+"App <a href=\"https://about.citiesapps.com/\" target=\"blank\" class=\"link-"
+"alternative-color\">Cities</a> was born. Cities is a complex, "
+"multifunctional software platform targeting the extensive regional "
+"requirements of cities, citizens, companies and associations."
+msgstr ""
+
+#: home-template.php:41
+msgid "Our Services"
+msgstr ""
+
+#: home-template.php:43
+msgid "Native mobile solutions for Android and iOS"
+msgstr ""
+
+#: home-template.php:44
+msgid "Modern web applications"
+msgstr ""
+
+#: home-template.php:45
+msgid "Scalable, high performance backend solutions"
+msgstr ""
+
+#: home-template.php:46
+msgid "Engaging and intuitive user experiences"
+msgstr ""
+
+#: home-template.php:47
+msgid "Personalised, pixel perfect user interfaces"
+msgstr ""
+
+#: home-template.php:48
+msgid "Perfectly suited corporate identities"
+msgstr ""
+
+#: home-template.php:65
+msgid "Jobs"
+msgstr ""
+
+#: home-template.php:74
+msgid "iOS Developer"
+msgstr ""
+
+#: home-template.php:78
+msgid "Developing, extending and maintaining state of the art iOS applications"
+msgstr ""
+
+#: home-template.php:79 home-template.php:109
+msgid "Optimizing user experience according to UI/UX best practices"
+msgstr ""
+
+#: home-template.php:80 home-template.php:110
+msgid "Modernizing and reclaiming existing codebases"
+msgstr ""
+
+#: home-template.php:81 home-template.php:111
+msgid ""
+"Working as part of the team and participating in design/architecture "
+"decisions"
+msgstr ""
+
+#: home-template.php:89
+msgid "UX Designer"
+msgstr ""
+
+#: home-template.php:93
+msgid "User research, keeping up with the latest UX trends"
+msgstr ""
+
+#: home-template.php:94
+msgid "User testing, including analysis and presentation of findings"
+msgstr ""
+
+#: home-template.php:95
+msgid "Planning and moderating UX workshops with stakeholders"
+msgstr ""
+
+#: home-template.php:96
+msgid ""
+"Creation of wireframes, flowcharts, mockups and other common UX deliverables"
+msgstr ""
+
+#: home-template.php:104
+msgid "Android Developer"
+msgstr ""
+
+#: home-template.php:108
+msgid ""
+"Developing, extending and maintaining state of the art Android applications"
+msgstr ""
+
+#: home-template.php:121
+msgid "Initiative"
+msgstr ""
+
+#: home-template.php:124
+msgid ""
+"Do you want to work for our company, but there is no suitable job offered?"
+msgstr ""
+
+#: home-template.php:125
+msgid "We are looking forward to receiving an initiative application!"
+msgstr ""
+
+#: home-template.php:132
+msgid "Recently assigned Jobs"
+msgstr ""
+
+#: home-template.php:138
+msgid "Graphic-, Screen-, Web Designer"
+msgstr ""
+
+#: home-template.php:141
+msgid "Part-time"
+msgstr ""
+
+#: home-template.php:142 home-template.php:151 home-template.php:160
+msgid "Joined our team on 07/01/20"
+msgstr ""
+
+#: home-template.php:147
+msgid "React Developer"
+msgstr ""
+
+#: home-template.php:150 home-template.php:159
+msgid "Full-time"
+msgstr ""
+
+#: home-template.php:156
+msgid "Backend .NET Developer"
+msgstr ""
+
+#: home-template.php:172
+msgid "Open Master Theses"
+msgstr ""
+
+#: home-template.php:176
+msgid ""
+"Appmea is cooperating with the <a href=\"https://www.tugraz.at/home/\" "
+"target=\"blank\">University of Technology Graz</a> as well as with the <a "
+"href=\"https://www.uni-graz.at/de/\" target=\"blank\">Karl Franzens "
+"University Graz.</a>"
+msgstr ""
+
+#: home-template.php:177
+msgid "A part of the cooperation is the possibility to transact Master Theses."
+msgstr ""
+
+#: home-template.php:178
+msgid "At the moment no theses are advertised."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: page-impressum-template.php:20
+msgid "Registration number: 479733s"
+msgstr ""
+
+#: page-impressum-template.php:21
+msgid "Commercial Court of registration: ZRS Graz"
+msgstr ""
+
+#: page-impressum-template.php:22
+msgid "VAT number: ATU72668268"
+msgstr ""
+
+#: privacy-policy-template.php:11
+msgid "Privacy Policy"
+msgstr ""

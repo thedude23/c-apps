@@ -1,0 +1,69 @@
+.section-line {
+    border-bottom: 4px solid $color-blue;
+    width: 4rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.section-line-sm-margin {
+    border-bottom: 4px solid $color-blue;
+    width: 4rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.line-divider {
+    border-bottom: 1px solid $color-grey;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+
+    @media screen and (max-width: $media-sm) {
+        width: 100%;
+    }
+}
+.full-width {
+    width: 100% !important;
+}
+
+.u-center-text { text-align: center !important; }
+
+.u-margin-0-auto { margin: 0 auto !important; }
+
+.u-section-spacer { 
+    padding-bottom: 12rem !important; 
+    padding-top: 12rem !important; 
+    @media screen and (max-width: $media-md) {
+        padding-bottom: 5rem !important; 
+        padding-top: 5rem !important;
+    }
+}
+
+.u-section-anti-spacer-open-master-theses {
+    margin-top: -12rem !important;
+    @media screen and (max-width: $media-md) {
+        margin-top: -5rem !important; 
+    }
+}
+
+.u-section-spacer-page {
+    padding-bottom: 5rem !important; 
+    padding-top: 5rem !important;
+}
+
+
+.u-margin-bottom-sm { margin-bottom: 1.5rem !important; }
+.u-margin-bottom-md { margin-bottom: 4rem !important; }
+.u-margin-bottom-lg { margin-bottom: 8rem !important; }
+.u-margin-bottom-xl { margin-top: 10rem !important; }
+
+.u-margin-top-sm { margin-top: 1.5rem !important; }
+.u-margin-top-md { margin-top: 4rem !important; }
+.u-margin-top-lg { margin-top: 8rem !important; }
+.u-margin-top-xl { margin-top: 10rem !important; }
+
+.u-subsection-spacer-bottom { 
+    padding-bottom: 5rem !important; 
+}
+.u-subsection-spacer-top { 
+    padding-top: 5rem !important; 
+}

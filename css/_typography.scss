@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $color-dark-grey;
+    // font-weight: 400;
+    font-size: 1.6rem;
+    width: 100vw;
+}
+
+p, .paragraph {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: $color-dark-grey;
+
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
+
+.color-white {
+    color: $color-white;
+}
+
+h1, .h1 {
+    text-transform: uppercase;
+    // backface-visibility: hidden;
+    font-size: 5.4rem;
+    font-size: 54px;
+    // font-weight: bolder;
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: $media-md) {
+        font-size: 3.6rem;
+    }
+}
+
+h2, .h2 {
+    font-size: 3.4rem;
+    // font-weight: bolder;
+    margin-bottom: 2rem;
+    color: $color-black-ish;
+
+    @media screen and (max-width: $media-md) {
+        font-size: 2.4rem;
+    }
+}
+
+h3, .h3 {
+    font-size: 2.1rem;
+    // font-weight: 500;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: $color-black-ish;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}

@@ -1,0 +1,123 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-dark-grey-2;
+    color: $color-white;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    position: absolute; // position: fixed;
+    left: 0px;
+    width: 100%;
+    bottom: 0px !important;
+
+    height: 70rem;
+    @media screen and (max-width: $media-sm) {
+        height: 115rem;
+    }  
+
+    .logo-footer {
+        width: 20rem;
+        max-height: 8rem;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .social-icons, .contact, .impressum {
+        margin-top: 4rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        width: 100% !important;
+
+        .fab {
+            font-size: 5rem;
+
+            &:hover {
+                color: $color-light-blue;
+            }
+        }
+
+        .fa-instagram-square {
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+        // .fab:nth-of-type(2n) {
+        // }
+    }
+
+    .contact {
+        display: flex;
+        // justify-content: center;
+        justify-content: space-around;
+        width: 100% !important;
+        padding-right: 2.25rem; // why the heck is that needed?!
+
+        @media screen and (max-width: $media-sm) {
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 2.25rem; // why the heck is that needed?!
+        }
+
+        h3 {
+            color: $color-white;
+        }
+
+        p {
+            color: $color-white;
+            font-weight: 300;
+        }
+
+        &__phone, &__email, &__address {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            cursor: pointer;
+
+            @media screen and (max-width: $media-sm) {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            .fab, .fas {
+                font-size: 3rem;
+                color: $color-blue;
+                margin-bottom: 2rem;
+
+                &:hover {
+                    color: $color-light-blue;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-transform: uppercase;
+    }
+
+    .impressum, .privacy-policy, .copyright {
+        // margin: 0 auto !important;
+        // text-align: center;
+        p {
+            font-size: 1.4rem;
+            line-height: 1.6;
+            color: $color-white;
+        }
+
+        a {
+            font-weight: 300;
+        }
+    }
+
+    // .fb-like-plugin {
+    //     margin-top: 1.5rem;
+    // }
+}
