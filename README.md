@@ -1,0 +1,2 @@
+# CAPPS
+WordPress custom theme
