@@ -1,2 +1,2 @@
-# CAPPS
-WordPress custom theme
+# c-apps
+WordPress theme
